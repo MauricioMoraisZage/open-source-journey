@@ -1,110 +1,144 @@
 # Open Source Journey
 
-This repository documents my preparation and learning process for contributing
-to open-source projects related to Linux, Ubuntu, cloud infrastructure,
-backend development and developer tooling.
+This repository documents my learning path, preparation process and contribution progress as I build practical experience with real-world open-source projects.
 
-My goal is to understand how established open-source projects organise their
-code, documentation, tests, issues and pull request reviews before submitting
-my first contributions.
+The focus is on backend development, Linux tooling, Ubuntu and cloud infrastructure, containers, testing, documentation and collaborative software engineering.
+
+## Purpose
+
+The goal of this repository is to track my open-source contribution journey in a structured and transparent way.
+
+Before submitting contributions, I want to understand how established projects organize their codebases, documentation, tests, issues, contribution guidelines, pull requests and review workflows.
 
 ## Current Focus
 
-I am currently exploring projects connected to my experience and interests in
-Linux, C/C++, Python, Node.js, TypeScript, Docker and backend development.
+I am currently focusing on a small number of projects that are aligned with my technical background and career goals.
 
-| Project | Area | Current status |
+| Project | Area | Current Status |
 |---|---|---|
-| [cloud-init](https://github.com/canonical/cloud-init) | Linux, cloud and Python | Repository followed |
-| [Snapcraft](https://github.com/canonical/snapcraft) | Ubuntu packaging and Python | Repository followed |
-| [Multipass](https://github.com/canonical/multipass) | Ubuntu virtual machines and C++ | Repository followed |
-| [Charmcraft](https://github.com/canonical/charmcraft) | Cloud tooling and packaging | Repository followed |
-| [Node.js](https://github.com/nodejs/node) | JavaScript runtime and backend systems | Repository followed |
-| [Fastify](https://github.com/fastify/fastify) | Node.js backend framework | Repository followed |
-| [Docker Docs](https://github.com/docker/docs) | Containers and technical documentation | Repository followed |
+| [cloud-init](https://github.com/canonical/cloud-init) | Linux, Ubuntu, cloud infrastructure and Python | Exploring contribution workflow |
+| [Fastify](https://github.com/fastify/fastify) | Node.js backend framework and API architecture | Exploring contribution workflow |
+| [Docker Docs](https://github.com/docker/docs) | Containers and technical documentation | Exploring documentation contribution workflow |
+
+## Secondary Interests
+
+These projects are part of my long-term open-source learning path, but they are not my immediate contribution focus.
+
+| Project | Area | Status |
+|---|---|---|
+| [Snapcraft](https://github.com/canonical/snapcraft) | Ubuntu packaging and Python | Future exploration |
+| [Charmcraft](https://github.com/canonical/charmcraft) | Cloud tooling, packaging and Juju ecosystem | Future exploration |
+| [Multipass](https://github.com/canonical/multipass) | Ubuntu virtual machines and C++ | Future exploration |
+| [Node.js Core](https://github.com/nodejs/node) | JavaScript runtime and backend systems | Future exploration |
 
 ## Learning Tracks
 
 ### Linux, Ubuntu and Cloud
 
-Projects being explored:
+Primary project:
 
 - cloud-init
-- Snapcraft
-- Multipass
-- Charmcraft
 
 Main topics:
 
 - Linux development workflows
-- cloud instance configuration
-- Ubuntu software packaging
-- virtual machines
-- automated testing
-- continuous integration
+- cloud instance initialization
+- cloud configuration automation
+- Python project structure
+- testing in infrastructure tooling
+- issue reproduction
+- documentation-driven contribution
 
 ### Backend Development
 
-Projects being explored:
+Primary project:
 
-- Node.js
-- Fastify
+- Fastify ecosystem
 
 Main topics:
 
-- Node.js internals
-- backend framework architecture
+- Node.js backend architecture
+- API design
+- plugin-based systems
 - asynchronous programming
-- API performance
 - automated testing
-- code review practices
+- performance-oriented development
+- pull request review practices
 
 ### Containers and Documentation
 
-Project being explored:
+Primary project:
 
 - Docker Docs
 
 Main topics:
 
 - container concepts
-- technical documentation standards
-- documentation testing
-- contribution review workflows
+- developer tooling documentation
+- documentation standards
+- examples and tutorials
+- documentation review workflows
 
-## Current Progress
+## Contribution Roadmap
 
-- [x] Selected projects related to my technical interests
-- [x] Followed and starred the selected repositories
+### Preparation
+
+- [x] Define open-source contribution goals
+- [x] Select projects aligned with my technical interests
+- [x] Follow and star selected repositories
 - [ ] Read the cloud-init contribution guide
 - [ ] Read the Fastify contribution guide
-- [ ] Understand the local setup requirements
-- [ ] Run one selected project locally
-- [ ] Review good first issues
-- [ ] Select a first contribution
-- [ ] Submit my first pull request
-- [ ] Complete my first merged contribution
+- [ ] Read the Docker Docs contribution guide
+- [ ] Understand local setup requirements
+- [ ] Identify beginner-friendly issues
+
+### First Contributions
+
+- [ ] Reproduce one issue locally
+- [ ] Run tests for one selected project
+- [ ] Select a small contribution
+- [ ] Submit the first pull request
+- [ ] Respond to review feedback
+- [ ] Complete the first merged contribution
+
+### Growth
+
+- [ ] Contribute documentation improvements
+- [ ] Contribute test improvements
+- [ ] Contribute small bug fixes
+- [ ] Contribute to backend-related code
+- [ ] Maintain a contribution log with links to pull requests
 
 ## Contribution Principles
 
-I want my future contributions to be:
+My future contributions should be:
 
 - Small and focused
-- Properly tested
+- Easy to review
 - Consistent with project guidelines
+- Properly tested when applicable
 - Clearly documented
-- Open to feedback and review
+- Respectful of maintainers' time
+- Open to feedback and improvement
+
+## Contribution Log
+
+| Date | Project | Type | Status | Link |
+|---|---|---|---|---|
+| Pending | cloud-init | Documentation / issue reproduction | Exploring | - |
+| Pending | Fastify ecosystem | Backend / tests / documentation | Exploring | - |
+| Pending | Docker Docs | Documentation | Exploring | - |
 
 ## Background
 
-I completed the 42 Luanda Common Core, where I worked with Linux, C, C++,
-Git, Makefiles, memory management, Unix processes, networking, Docker,
-debugging and collaborative software development.
+Through my training at 42 Luanda, I worked with Linux, C, C++, Git, Makefiles, memory management, Unix processes, networking, Docker, debugging and collaborative software development.
 
-My current focus is backend development using Node.js, TypeScript, Express,
-PostgreSQL, Prisma and Docker.
+My current focus is backend development using Node.js, TypeScript, Express, PostgreSQL, Prisma and Docker.
+
+I am using this repository to move from personal and academic projects into real-world open-source collaboration.
 
 ## Important Note
 
-This repository documents my learning and preparation process. Items will only
-be marked as completed after I have performed and verified them.
+This repository documents my learning and preparation process.
+
+Items will only be marked as completed after I have performed and verified them. Contributions will only be listed after they are submitted or merged in the respective upstream repositories.

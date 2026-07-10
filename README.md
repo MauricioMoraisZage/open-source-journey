@@ -12,11 +12,13 @@ I am using this repository to document how I study established open-source proje
 
 ## Current Focus
 
-I am currently focusing on one project only.
+I am currently focusing on the Fastify ecosystem.
 
-| Project                                       | Area                                                        | Current status            |
-| --------------------------------------------- | ----------------------------------------------------------- | ------------------------- |
-| [Fastify](https://github.com/fastify/fastify) | Node.js backend framework, API architecture and performance | First pull request opened |
+| Project | Area | Current status |
+|---|---|---|
+| [Fastify](https://github.com/fastify/fastify) | Node.js backend framework, API architecture and performance | Pull request open |
+| [fastify-plugin](https://github.com/fastify/fastify-plugin) | Fastify plugin helper, TypeScript documentation and plugin patterns | Pull request open |
+
 
 ## Why Fastify?
 
@@ -58,35 +60,41 @@ Main topics I am studying:
 ## Current Progress
 
 * [x] Defined open-source contribution goals
-* [x] Selected one project aligned with my backend career goals
+* [x] Selected projects aligned with my backend career goals
 * [x] Forked the Fastify repository
 * [x] Cloned the project locally
 * [x] Installed project dependencies
 * [x] Created a contribution branch
 * [x] Selected a first contribution
 * [x] Submitted my first pull request
-* [ ] Wait for workflow approval
+* [x] Prepared a second contribution in the Fastify ecosystem
+* [x] Submitted a second pull request
+* [ ] Wait for maintainer review
 * [ ] Respond to review feedback
-* [ ] Complete my first merged contribution
+* [ ] Complete first merged contribution
 * [ ] Study Fastify request lifecycle
 * [ ] Study Fastify plugins and encapsulation
-* [ ] Prepare a second contribution
+
 
 ## Contribution Log
 
-| Date       | Project | Type          | Status            | Link                                         |
-| ---------- | ------- | ------------- | ----------------- | -------------------------------------------- |
+| Date | Project | Type | Status | Link |
+|---|---|---|---|---|
 | 2026-07-10 | Fastify | Documentation | Pull Request Open | https://github.com/fastify/fastify/pull/6841 |
+| 2026-07-10 | fastify-plugin | Documentation | Pull Request Open | https://github.com/fastify/fastify-plugin/pull/297 |
+
 
 ## Study Notes
 
-| Topic                     | Status      | Notes                              |
-| ------------------------- | ----------- | ---------------------------------- |
-| Application Hooks         | In progress | `fastify/001-application-hooks.md` |
-| Request Lifecycle         | Planned     | -                                  |
-| Plugins and Encapsulation | Planned     | -                                  |
-| Testing Fastify Routes    | Planned     | -                                  |
-| Schema Validation         | Planned     | -                                  |
+| Topic | Status | Notes |
+|---|---|---|
+| Application Hooks | In progress | `fastify/001-application-hooks.md` |
+| Async and Callback Plugin Styles | In progress | `fastify-plugin/001-async-callback-plugin-styles.md` |
+| Request Lifecycle | Planned | - |
+| Plugins and Encapsulation | Planned | - |
+| Testing Fastify Routes | Planned | - |
+| Schema Validation | Planned | - |
+
 
 ## Contribution Principles
 

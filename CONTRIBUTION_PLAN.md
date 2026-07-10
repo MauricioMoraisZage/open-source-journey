@@ -54,18 +54,22 @@ Good starting points include:
 
 ## Current Contribution
 
-| Date       | Project | Type          | Status            | Link                                         |
-| ---------- | ------- | ------------- | ----------------- | -------------------------------------------- |
+| Date | Project | Type | Status | Link |
+|---|---|---|---|---|
 | 2026-07-10 | Fastify | Documentation | Pull Request Open | https://github.com/fastify/fastify/pull/6841 |
+| 2026-07-10 | fastify-plugin | Documentation | Pull Request Open | https://github.com/fastify/fastify-plugin/pull/297 |
+
 
 ## Next Actions
 
-1. Monitor the first Fastify pull request
+1. Monitor the open Fastify pull requests
 2. Respond to maintainer feedback if requested
 3. Document what I learned about Fastify application hooks
-4. Study the Fastify request lifecycle
-5. Study Fastify plugins and encapsulation
-6. Prepare a second small contribution after reviewing feedback from the first pull request
+4. Document what I learned about async and callback plugin styles
+5. Study the Fastify request lifecycle
+6. Study Fastify plugins and encapsulation
+7. Prepare the next contribution only after reviewing maintainer feedback
+
 
 ## Long-Term Goal
 

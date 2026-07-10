@@ -1,133 +1,104 @@
 # Open Source Journey
 
-This repository documents my learning path, preparation process and contribution progress as I build practical experience with real-world open-source projects.
+This repository documents my learning process, preparation and contribution progress as I build practical experience with real-world open-source backend projects.
 
-The focus is on backend development, Linux tooling, Ubuntu and cloud infrastructure, containers, testing, documentation and collaborative software engineering.
+My current priority is backend development, with a focus on Node.js, TypeScript, API architecture, testing, documentation and collaborative software engineering.
 
 ## Purpose
 
 The goal of this repository is to track my open-source contribution journey in a structured and transparent way.
 
-Before submitting contributions, I want to understand how established projects organize their codebases, documentation, tests, issues, contribution guidelines, pull requests and review workflows.
+I am using this repository to document how I study established open-source projects, understand their codebases, follow contribution guidelines, run local checks, submit pull requests and respond to code review feedback.
 
 ## Current Focus
 
-I am currently focusing on a small number of projects that are aligned with my technical background and career goals.
+I am currently focusing on one project only.
 
-| Project | Area | Current Status |
-|---|---|---|
-| [cloud-init](https://github.com/canonical/cloud-init) | Linux, Ubuntu, cloud infrastructure and Python | Exploring contribution workflow |
-| [Fastify](https://github.com/fastify/fastify) | Node.js backend framework and API architecture | Exploring contribution workflow |
-| [Docker Docs](https://github.com/docker/docs) | Containers and technical documentation | Exploring documentation contribution workflow |
+| Project                                       | Area                                                        | Current status            |
+| --------------------------------------------- | ----------------------------------------------------------- | ------------------------- |
+| [Fastify](https://github.com/fastify/fastify) | Node.js backend framework, API architecture and performance | First pull request opened |
 
-## Secondary Interests
+## Why Fastify?
 
-These projects are part of my long-term open-source learning path, but they are not my immediate contribution focus.
+Fastify is aligned with my backend development goals because it involves:
 
-| Project | Area | Status |
-|---|---|---|
-| [Snapcraft](https://github.com/canonical/snapcraft) | Ubuntu packaging and Python | Future exploration |
-| [Charmcraft](https://github.com/canonical/charmcraft) | Cloud tooling, packaging and Juju ecosystem | Future exploration |
-| [Multipass](https://github.com/canonical/multipass) | Ubuntu virtual machines and C++ | Future exploration |
-| [Node.js Core](https://github.com/nodejs/node) | JavaScript runtime and backend systems | Future exploration |
+* Node.js backend development
+* HTTP server architecture
+* API design
+* Plugin-based systems
+* Request lifecycle
+* Application hooks
+* Schema validation
+* Automated testing
+* Performance-oriented development
+* Technical documentation
+* Pull request review workflows
 
-## Learning Tracks
+My goal is to start with small, focused contributions and gradually understand the project structure, development workflow and contribution standards.
 
-### Linux, Ubuntu and Cloud
+## Learning Track
 
-Primary project:
+### Backend Development with Fastify
 
-- cloud-init
+Main topics I am studying:
 
-Main topics:
+* Fastify project structure
+* Request lifecycle
+* Application hooks
+* Route-level hooks
+* Plugins and encapsulation
+* Error handling
+* Schema validation
+* Testing Fastify applications
+* Documentation standards
+* Issue reproduction
+* Pull request preparation
+* Code review feedback
 
-- Linux development workflows
-- cloud instance initialization
-- cloud configuration automation
-- Python project structure
-- testing in infrastructure tooling
-- issue reproduction
-- documentation-driven contribution
+## Current Progress
 
-### Backend Development
-
-Primary project:
-
-- Fastify ecosystem
-
-Main topics:
-
-- Node.js backend architecture
-- API design
-- plugin-based systems
-- asynchronous programming
-- automated testing
-- performance-oriented development
-- pull request review practices
-
-### Containers and Documentation
-
-Primary project:
-
-- Docker Docs
-
-Main topics:
-
-- container concepts
-- developer tooling documentation
-- documentation standards
-- examples and tutorials
-- documentation review workflows
-
-## Contribution Roadmap
-
-### Preparation
-
-- [x] Define open-source contribution goals
-- [x] Select projects aligned with my technical interests
-- [x] Follow and star selected repositories
-- [ ] Read the cloud-init contribution guide
-- [ ] Read the Fastify contribution guide
-- [ ] Read the Docker Docs contribution guide
-- [ ] Understand local setup requirements
-- [ ] Identify beginner-friendly issues
-
-### First Contributions
-
-- [ ] Reproduce one issue locally
-- [ ] Run tests for one selected project
-- [ ] Select a small contribution
-- [ ] Submit the first pull request
-- [ ] Respond to review feedback
-- [ ] Complete the first merged contribution
-
-### Growth
-
-- [ ] Contribute documentation improvements
-- [ ] Contribute test improvements
-- [ ] Contribute small bug fixes
-- [ ] Contribute to backend-related code
-- [ ] Maintain a contribution log with links to pull requests
-
-## Contribution Principles
-
-My future contributions should be:
-
-- Small and focused
-- Easy to review
-- Consistent with project guidelines
-- Properly tested when applicable
-- Clearly documented
-- Respectful of maintainers' time
-- Open to feedback and improvement
+* [x] Defined open-source contribution goals
+* [x] Selected one project aligned with my backend career goals
+* [x] Forked the Fastify repository
+* [x] Cloned the project locally
+* [x] Installed project dependencies
+* [x] Created a contribution branch
+* [x] Selected a first contribution
+* [x] Submitted my first pull request
+* [ ] Wait for workflow approval
+* [ ] Respond to review feedback
+* [ ] Complete my first merged contribution
+* [ ] Study Fastify request lifecycle
+* [ ] Study Fastify plugins and encapsulation
+* [ ] Prepare a second contribution
 
 ## Contribution Log
 
-| Date | Project | Type | Status | Link |
-|---|---|---|---|---|
-| Pending | cloud-init | Documentation / issue reproduction | Exploring | - |
-| Pending | Fastify ecosystem | Backend / tests / documentation | Exploring | - |
-| Pending | Docker Docs | Documentation | Exploring | - |
+| Date       | Project | Type          | Status            | Link                                         |
+| ---------- | ------- | ------------- | ----------------- | -------------------------------------------- |
+| 2026-07-10 | Fastify | Documentation | Pull Request Open | https://github.com/fastify/fastify/pull/6841 |
+
+## Study Notes
+
+| Topic                     | Status      | Notes                              |
+| ------------------------- | ----------- | ---------------------------------- |
+| Application Hooks         | In progress | `fastify/001-application-hooks.md` |
+| Request Lifecycle         | Planned     | -                                  |
+| Plugins and Encapsulation | Planned     | -                                  |
+| Testing Fastify Routes    | Planned     | -                                  |
+| Schema Validation         | Planned     | -                                  |
+
+## Contribution Principles
+
+My contributions should be:
+
+* Small and focused
+* Easy to review
+* Consistent with project guidelines
+* Properly tested when applicable
+* Clearly documented
+* Respectful of maintainers' time
+* Open to feedback and improvement
 
 ## Background
 
@@ -141,4 +112,4 @@ I am using this repository to move from personal and academic projects into real
 
 This repository documents my learning and preparation process.
 
-Items will only be marked as completed after I have performed and verified them. Contributions will only be listed after they are submitted or merged in the respective upstream repositories.
+Items will only be marked as completed after I have performed and verified them. Contributions will only be listed after they are submitted or merged in the respective upstream repository.
